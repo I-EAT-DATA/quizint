@@ -1,0 +1,55 @@
+html,
+body {
+  height: 100%;
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+
+.card-image img {
+  object-fit: cover;
+}
+
+.card-content {
+  background-color: #fff;
+}
+
+.card-content .content {
+  padding: 1rem;
+}
+
+.modal-card-head {
+  background-color: #f14668;
+  color: white;
+}
+
+.modal-card-foot {
+  justify-content: center;
+}
+
+.box {
+  border-radius: 10px;
+}
+
+.subtitle {
+  font-weight: bold;
+}
+
+.columns.is-vcentered {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.card {
+  height: 30%;
+}
+
+.subtitle is-3 {
+  white-space: pre;
+}
+
+.progress::-webkit-progress-value {
+  transition: width 0.5s ease;
+}
